@@ -8,8 +8,8 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    align-items: center !important;
-    text-align: center !important;
+    align-items: center;
+    text-align: center;
     width: 100%;
     padding-left: 150px;
     padding-right: 150px;
@@ -18,21 +18,20 @@
 
 .seese {
     font-size: 28px;
-    color: rgb(35, 35, 35) !important;
+    color: rgb(35, 35, 35)  ;
     letter-spacing: 1px;
     line-height: 23px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding-right: 20px;
     text-align: left;
-
 }
 
 .nav_middle {
     display: flex;
     justify-content: center;
-    text-align: center !important;
-    align-items: center !important;
+    text-align: center  ;
+    align-items: center  ;
     gap: 40px;
     padding-right: 350px;
 }
@@ -43,13 +42,12 @@
     font-family: "Poppins", Arial, sans-serif;
     font-size: 12px;
     font-weight: 500;
-    align-items: center !important;
-    text-align: center !important;
-    /* text-transform: uppercase; */
+    align-items: center  ;
+    text-align: center  ;
     margin-right: 0px;
     margin-left: 0px;
     background: none;
-    color: rgba(0, 0, 0, 0.6) !important;
+    color: rgba(0, 0, 0, 0.6)  ;
     cursor: pointer;
 
 }
@@ -61,13 +59,13 @@
 .nav_middle_1:hover,
 .nav_middle_2:hover,
 .nav_middle_3:hover {
-    color: rgba(0, 0, 0, 1) !important;
-    transition: all 1s ease-in-out !important;
+    color: rgba(0, 0, 0, 1)  ;
+    transition: all 1s ease-in-out  ;
 }
 
 .home:hover .nav_middle_1_1 {
     display: block;
-    transition: all .1s ease !important;
+    transition: all .1s ease  ;
 }
 
 .nav_right {
@@ -83,8 +81,8 @@
 .nav_middle_1_1 {
     width: 200px;
     height: 200px;
-    background-color: black !important;
-    color: white !important;
+    background-color: black  ;
+    color: white  ;
     position: absolute;
     margin-top: 25px;
     text-align: left;
@@ -102,7 +100,7 @@
     background: none;
     letter-spacing: .8px;
     font-family: 'Poppins', sans-serif;
-    color: white !important;
+    color: white  ;
 
 }
 
@@ -119,24 +117,22 @@
     background: none;
     letter-spacing: .8px;
     font-family: 'Poppins', sans-serif;
-    color: white !important;
+    color: white  ;
 }
 
 .nav_middle_home_2:hover,
 .nav_middle_home_3:hover,
 .nav_middle_home_4:hover,
 .nav_middle_home_5:hover {
-    color: grey !important;
+    color: grey  ;
     cursor: pointer;
-    transition: all 0.1s ease-in-out !important;
+    transition: all 0.1s ease-in-out  ;
 }
-
-
 .iconsHeart {
     display: none;
-    color: black !important;
-    text-shadow: rgb(0, 0, 0) 0px 0px 1px !important;
-    cursor: pointer !important;
+    color: black  ;
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px  ;
+    cursor: pointer  ;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
@@ -145,8 +141,8 @@
 }
 
 .iconsSearch {
-    color: black !important;
-    text-shadow: rgb(0, 0, 0) 0px 0px 1px !important;
+    color: black  ;
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px  ;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -161,8 +157,8 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    background-color: white !important;
-    z-index: 999 !important;
+    background-color: white  ;
+    z-index: 999  ;
 
 }
 
@@ -176,7 +172,7 @@
     margin-left: 30px;
     font-weight: 500;
     font-size: 12px;
-    color: #2b2b2b !important;
+    color: #2b2b2b  ;
     transform: rotate(180deg);
 
 }
@@ -190,7 +186,7 @@
     margin-top: 350px;
     font-weight: 500;
     font-size: 12px;
-    color: #2b2b2b !important;
+    color: #2b2b2b  ;
 
 }
 
@@ -200,8 +196,8 @@
     position: fixed;
     top: 20px;
     right: 0;
-    background-color: white !important;
-    color: black !important;
+    background-color: white  ;
+    color: black  ;
     padding: 10px 16px;
     z-index: 999;
 }
@@ -209,37 +205,36 @@
 .image {
     padding-top: 25px;
     position: relative;
+    align-items: center;
 }
 
 .image_1 {
     width: 1302px;
     height: 562px;
-
 }
 
 .image_info {
     position: absolute;
     top: 300px;
     left: 250px;
-
 }
 
 .image_info_1 {
-    color: black !important;
+    color: black  ;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 24px;
 }
 
 .image_info_2 {
-    color: black !important;
+    color: black  ;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 24px;
 }
 
 .image_info_3 {
-    color: black !important;
+    color: black  ;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 12px;
@@ -250,14 +245,14 @@
 .image_info_3_line {
     width: 60px;
     height: 1.5px;
-    background-color: grey !important;
+    background-color: grey  ;
 
     cursor: pointer;
 }
 
 .image_info_3:hover .image_info_3_line {
     display: none;
-    transition: all .5s !important;
+    transition: all .5s  ;
 }
 
 .nav_middle_2_default {
@@ -266,8 +261,8 @@
     gap: 10px;
     width: 600px;
     height: 300px;
-    background-color: black !important;
-    color: white !important;
+    background-color: black;
+    color: white;
     position: absolute;
     margin-top: 25px;
     text-align: left;
@@ -277,7 +272,7 @@
 
 .nav_shop:hover .nav_middle_2_default {
     display: flex;
-    transition: all .1s ease !important;
+    transition: all .1s ease;
 }
 
 li {
@@ -291,18 +286,18 @@ li {
     background: none;
     letter-spacing: .8px;
     font-family: 'Poppins', sans-serif;
-    color: white !important;
+    color: white;
 }
 
 .shopDefaultMenu_line {
-    border-left: 1px solid grey !important;
+    border-left: 1px solid grey;
     height: 250px;
     margin: 15px;
 
 }
 
 .shopDefaultMenu_1 {
-    color: white !important;
+    color: white;
     font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
@@ -312,7 +307,7 @@ li {
 }
 
 .shopDefaultMenu_2 {
-    color: rgb(147, 147, 147) !important;
+    color: rgb(147, 147, 147);
     font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
@@ -321,15 +316,14 @@ li {
 }
 
 .shopDefaultMenu_2:hover {
-    color: white !important;
-    transition: all 0.5s ease  !important;
+    color: white;
+    transition: all 0.5s ease;
 }
 
 .card_container {
     width: 100%;
     height: 100%;
     padding-top: 25px;
-
 }
 
 .card_container_1 {
@@ -338,13 +332,11 @@ li {
     padding: 0 20px;
     display: flex;
     gap: 25px;
-
 }
 
 .cards_1 {
     flex: 1;
     position: relative;
-
 }
 
 .cards_image {
@@ -354,7 +346,6 @@ li {
     background-position: center;
     width: 100%;
     height: 320px;
-
 }
 
 .cards_image_1 {
@@ -364,7 +355,6 @@ li {
     background-repeat: no-repeat;
     width: 100%;
     height: 320px;
-
 }
 
 .cards_image_2 {
@@ -374,41 +364,40 @@ li {
     background-repeat: no-repeat;
     width: 100%;
     height: 320px;
-
 }
 
 .cards_info {
     position: absolute;
     top: 50%;
     left: 20px;
-    color: black !important;
+    color: black  ;
     font-family: 'Poppins', sans-serif;
 }
 
 .cards_image,
 .cards_image_1,
 .cards_image_2 {
-    transition: transform .3s ease !important;
+    transition: transform .3s ease  ;
 }
 
 .cards_1:hover .cards_image,
 .cards_1:hover .cards_image_1,
 .cards_1:hover .cards_image_2 {
-    transform: translateY(-6px) !important;
+    transform: translateY(-6px)  ;
 }
 
 .cards_info_1 {
     font-size: 14px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    color: black !important;
+    color: black  ;
 }
 
 .cards_info_2 {
     font-size: 14px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    color: rgb(147, 147, 147) !important;
+    color: rgb(147, 147, 147)  ;
     margin-top: 8px;
 }
 
@@ -422,7 +411,6 @@ li {
     align-items: center;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-
 }
 
 .show_all_1 {
@@ -430,10 +418,9 @@ li {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
     font-weight: 500;
-    color: black !important;
+    color: black;
     margin: 0 12px;
     cursor: pointer;
-
 }
 
 .show_all_2 {
@@ -443,13 +430,12 @@ li {
     font-weight: 500;
     margin: 0 12px;
     cursor: pointer;
-    color: rgb(119, 119, 119) !important;
-
+    color: rgb(119, 119, 119);
 }
 
 .show_all_2:hover {
-    color: black !important;
-    transition: all 0.5s ease !important;
+    color: black  ;
+    transition: all 0.5s ease;
 }
 .card_container_2{
     width: 100%;
@@ -457,18 +443,17 @@ li {
     padding-left: 150px;
     padding-right: 150px;
     display: grid;
-    grid-template-rows: repeat(5, 1fr) !important;
-    grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 25px;
-    border: none !important;
-    
+    border: none;  
 }
 .card_2{
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
-    transition: transform .3s ease !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: transform .3s ease;
     position: relative;
-    border: none !important;
+    border: none  ;
 }
 
 .card_1_image{
@@ -486,8 +471,8 @@ li {
     right: 20px;
     font-size: 14px;
     z-index: 9;
-    color: rgb(35, 35, 35) !important;
-    left: inherit !important;
+    color: rgb(35, 35, 35)  ;
+    left: inherit  ;
     background: rgb(255, 255, 255);
     padding: 0px;
     border-radius: 2px;
@@ -498,8 +483,8 @@ li {
     display: none;
 }
 .card_2_info{ 
-    background-color: transparent !important;
-    border: none !important;
+    background-color: transparent  ;
+    border: none  ;
 }
 .card_2_description_cart{
 font-family: "Raleway", sans-serif;
@@ -519,14 +504,14 @@ display: none;
 }
 .card_2:hover {
     .card_2_description_cart{display: block;
-    transition: transform .3s ease !important;}
+    transition: transform .3s ease;}
     .card_container_3{display: block;
-    transition: transform .3s ease !important;}
+    transition: transform .3s ease;}
     .card_2_description{display: none;
-    transition: transform .3s ease !important;}
+    transition: transform .3s ease;}
     .card_1_image{
         transform: scale(1.02);
-         transition: transform .3s ease !important;
+         transition: transform .3s ease;
     }
      
 
@@ -554,7 +539,7 @@ font-variant-numeric: normal;
 font-weight: 500;
  display: flex;
 justify-content: space-between;
- color: rgba(0, 0,0, 0.8) !important;
+ color: rgba(0, 0,0, 0.8);
 
 }
 .load_button{
@@ -584,8 +569,8 @@ justify-content: space-between;
 
 }
 .load_button_1:hover{
-    background-color:rgb(35, 35, 35) ;
-    color:white ;
+    background-color:rgb(35, 35, 35);
+    color:white;
 }
 .hide{
     opacity: 0;
