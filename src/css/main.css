@@ -62,6 +62,17 @@
     color: rgba(0, 0, 0, 1)  ;
     transition: all 1s ease-in-out  ;
 }
+.nav_middle_1_1 {
+    width: 200px;
+    height: 200px;
+    background-color: black  ;
+    color: white  ;
+    position: absolute;
+    margin-top: 25px;
+    text-align: left;
+    display: none;
+    z-index: 999;
+}
 
 .home:hover .nav_middle_1_1 {
     display: block;
@@ -78,17 +89,7 @@
     position: relative;
 }
 
-.nav_middle_1_1 {
-    width: 200px;
-    height: 200px;
-    background-color: black  ;
-    color: white  ;
-    position: absolute;
-    margin-top: 25px;
-    text-align: left;
-    display: none;
-    z-index: 999;
-}
+
 
 .nav_middle_home_1 {
     margin-top: 25px;
@@ -256,8 +257,6 @@
 }
 
 .nav_middle_2_default {
-    display: flex;
-    justify-content: center;
     gap: 10px;
     width: 600px;
     height: 300px;
@@ -272,6 +271,7 @@
 
 .nav_shop:hover .nav_middle_2_default {
     display: flex;
+    justify-content: center;
     transition: all .1s ease;
 }
 
