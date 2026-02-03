@@ -1,0 +1,326 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: white;
+}
+
+.shop_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 60px;
+
+}
+
+.shop_navbar_logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.shop_navbar_logo_image {
+    width: 158px;
+}
+
+.shop_navbar_middle {
+    display: flex;
+    justify-self: start;
+    padding-right: 350px;
+    gap: 25px;
+}
+
+.shop_navbar_middle_1 {
+    color: #222222;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all ease .4s;
+}
+
+.shop_navbar_middle_1:hover {
+    color: #6D6D6D;
+}
+
+.shop_navbar_right {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.shop_navbar_right_1 {
+    width: 100px;
+    height: 50px;
+    border-color: #555555;
+    overflow: hidden;
+    color: black;
+    border: 2px solid #aaaaaa;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+    position: relative;
+    background-color: transparent;
+}
+
+.shop_navbar_right_1::after {
+    content: "";
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    background: rgb(85, 85, 85);
+    transition: all ease .4s;
+}
+
+.shop_navbar_right_1:hover::after {
+    width: 100%;
+    transition: all ease .4s;
+    z-index: -1;
+}
+
+.shop_navbar_right_1:hover {
+    color: white;
+    transition: all ease .4s;
+}
+
+.main_page {
+    padding-top: 150px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.main_page_1 {
+    margin-left: 50px;
+    margin-right: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.main_page_2 {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 320px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    color: black;
+}
+
+.main_page_3 {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+    color: black;
+}
+
+.main_page_4 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 300;
+    margin-top: 25px;
+}
+
+.main_page_5_button {
+    width: 190px;
+    height: 60px;
+    font-size: 14px;
+    color: white;
+    font-family: "Poppins";
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: #222222;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.page_red_line {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #ec008c, #fc6767);
+    margin-top: 60px;
+}
+
+.page_red_line_1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.page_red_line_2 {
+    color: white;
+    font-family: Lato, Arial, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    margin: 50px 0;
+}
+
+.page_red_line_3_button {
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: 1px white solid;
+    transition: all ease .4s;
+}
+
+.page_red_line_3_button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.footer_shop_main {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.681);
+}
+
+.footer_shop_end {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer_end_left_1 {
+    color: #333333;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-weight: 600;
+    margin: 24px auto;
+    text-align: left;
+}
+
+.footer_end_left_2 {
+    display: block;
+    align-items: center;
+    text-align: left;
+}
+
+.footer_end_left_3 {
+    font-family: "Poppins";
+    font-size: 13px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 300;
+    color: #666666;
+    transition: all ease .4s;
+    margin-bottom: 10px;
+
+}
+
+.footer_end_left_3:hover {
+    color: #337ab7;
+}
+
+.footer_end_right_1 {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 300;
+    color: #666666;
+    text-align: left;
+}
+
+.footer_end_right_input {
+    width: 280px;
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.681);
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.footer_end_right_input_1 {
+    border: none;
+    outline: none;
+    text-align: start;
+    align-items: center;
+    color: #aaaaaa;
+    margin-left: 5px;
+}
+
+.footer_end_right_button {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    background-color: black;
+    color: #aaaaaa;
+    top: 0;
+    right: 0;
+}
+
+.footer_end_info {
+    padding: 50px 100px;
+}
+
+.footer_end_info_1 {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+    color: #666666;
+}
+
+.footer_end_info_2 {
+    align-items: end;
+}
+
+.footer_end_info_3 {
+    color: #222222;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+}

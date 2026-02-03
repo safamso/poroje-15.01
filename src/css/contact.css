@@ -1,0 +1,239 @@
+@import url(../reset.css);
+
+.contact_page {
+    width: 100%;
+    height: auto;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.contact_page_1 {
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.contact_page_1_1 {
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+
+    color: black;
+}
+
+.contact_page_1_2 {
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 500;
+    color: #777777;
+    padding-bottom: 50px;
+}
+
+.contact_page_map {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact_page_map_1 {
+    width: 100%;
+    height: 580px;
+}
+
+.contact_input {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.contact_input_left {
+    grid-area: 1 / 1 / 6 / 3;
+}
+
+.contact_input_right {
+    grid-area: 1 / 3 / 6 / 4;
+}
+
+.contact_input_left_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact_input_left_1_1 {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #777777a1;
+    outline: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 5px 15px 0;
+    line-height: 36px;
+    font-family: 'Poppins';
+    align-items: center;
+    text-align: left;
+}
+
+.contact_input_left_2 {
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.contact_input_left_2_1 {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #777777a1;
+    outline: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 5px 15px 0;
+    line-height: 36px;
+    font-family: 'Poppins';
+    margin-bottom: 25px;
+
+}
+
+.contact_input_left_2_2 {
+    display: block;
+    width: 100%;
+    border: 1px solid #777777a1;
+    outline: 1px solid black;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 5px 15px 0;
+    line-height: 36px;
+    font-family: 'Poppins';
+    margin-bottom: 25px;
+}
+
+.contact_input_left_botton {
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 45px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 1px;
+    transition: all 0.5 ease;
+
+}
+
+.contact_input_left_botton:hover {
+    opacity: 0.85;
+    transition: all 0.5 ease;
+
+}
+
+.contact_input_left_3 {
+    width: 100%;
+    align-items: start;
+    text-align: left;
+    padding-bottom: 50px;
+}
+.contact_input_right_1{
+    display: block;
+    padding-left:50px;
+    align-items: start;
+    text-align: left;
+}
+.contact_input_right_2{
+font-family:'Raleway';
+font-size: 14px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 500;
+color: #777777;
+    padding-bottom: 20px;
+    letter-spacing: .5px;
+    line-height: 26px;
+
+}
+.contact_input_right_3{
+    font-weight: 500;
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .1px;
+font-size: 12px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+ padding-bottom: 20px;
+}
+.contact_input_right_4{
+color: #777777;
+font-family: 'Raleway';
+font-size: 14px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 500;
+padding-bottom: 20px;
+
+}
+.contact_input_right_line{
+    width: 100%;
+    border-bottom: 1px solid #777777bb;
+      margin-bottom: 25px;
+    
+}
+.contact_input_right_6{
+font-family: 'Arial';
+font-size: 14px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 500;
+color: #777777;
+padding-bottom: 10px;
+
+}
+.contact_input_right_8{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 25px;
+    
+}
+.icons{
+    font-size: 18px;
+    color: #777777;
+    transition: all 0.5 ease;
+
+}
+.icons:hover{
+    color: #232323;
+}
